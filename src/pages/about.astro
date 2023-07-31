@@ -1,6 +1,6 @@
 ---
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 
 const pageTitle = "About Me";
@@ -46,7 +46,6 @@ const textCase = "uppercase";
     </style>
   </head>
   <body>
-
     <Header />
 
     <h1>{pageTitle}</h1>
@@ -95,5 +94,9 @@ const textCase = "uppercase";
     }
 
     <Footer />
+
+    <script>
+      import "../scripts/menu.js";
+    </script>
   </body>
 </html>
