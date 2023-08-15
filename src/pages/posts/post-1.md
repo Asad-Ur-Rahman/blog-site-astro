@@ -9,6 +9,7 @@ image:
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public"]
 ---
+
 # My First Blog Post
 
 Published on: 2023-08-01
